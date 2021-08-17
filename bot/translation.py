@@ -4,7 +4,7 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hello {} - I'm Auto filter V2 Bot .
+    START_TEXT = """<b>Hello {} - I'm MCF Auto filter Bot .
 
 I can help you to filter files automatically from channel to group .
 
@@ -12,11 +12,11 @@ I can help you to filter files automatically from channel to group .
 
 For more details hit /help ....
 
-Powered by @DevelopedBots 💖
+Powered by @MovieClubFamily
 </b>"""    
     
     HELP_TEXT = """
-<b>Hi , I am Auto filter Bot V2 . I can help you to filter files .</b>
+<b>Hi , I am MCF Auto filter Bot. I can help you to filter files .</b>
 
 <b><u>Helpful commands 👇</u></b>
 
@@ -30,12 +30,12 @@ Powered by @DevelopedBots 💖
 
 ⚠️ Bot should be admin in both channel and group .
 
-<b>If you got any issues about Bot ask at @DevelopedBotz .</b>
+<b>If you got any issues about Bot ask at @MovieClubFamily .</b>
 """
     
-    ABOUT_TEXT = """<b>➥ 🤖 Name</b> : <code> Auto Filter V2 Bot</code>
+    ABOUT_TEXT = """<b>➥ 🤖 Name</b> : <code> MCF Auto Filter Bot</code>
     
-<b>➥ 👨‍💻 Creator</b> : <b><a href="https://t.me/kunaldiwan">Kunal diwan</a></b>
+<b>➥ 👨‍💻 Creator</b> : <b><a href="https://t.me/IamBlackEmpire">Iam Black Empire</a></b>
 
 <b>➥ 🏳‍🌈 Language</b> : <code>Python3</code>
 
