@@ -19,9 +19,9 @@ async def start(bot, update):
         except UserNotParticipant:
             #await update.reply_text(f"Join @{update_channel} To Use Me")
             await update.reply_text(
-                text="<b>🤭 JOIN OUR UPDATES CHANNEL TO USE ME OTHER WISE NO USE OF ME FOR YOU 😒</b>",
+                text="<b>ඔයා අපේ MovieClub Updates චැනල් එකට Join වෙලා නෑ නේද 😒💔\n\nමේ යටින් පෙන්නන Join Our Channel කියන එක ඔබලා චැනල් එකට ජොයින් වෙන්න.\n\nඊට පස්සෙ ආයෙ අපෙ ගෲප් එකට ඇවිත් Unmute me කියන එක ඔබන්න.🤗\n\nඑතකොට ඔයාට අපෙ ගෲප් එකේ ආපහු චැට් කරන්න පුළුවන් 😍\n\nButton එක වැඩ නැත්නම් මේ ලින්ක් එකෙන් යම්න..</b>",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text=" 🤭JOIN OUR CHANNEL🤭 ", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text=" 🔥JOIN OUR CHANNEL🔥 ", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -55,7 +55,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developer 👨‍💻', url="https://t.me/kunaldiwan"
+                                    'Developer 👨‍💻', url="https://t.me/IamBlackEmpire"
                                 )
                         ]
                     ]
@@ -74,7 +74,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'My developer 👨‍🔧', url="https://t.me/kunaldiwan"
+                                    'My developer 👨‍🔧', url="https://t.me/IamBlackEmpire"
                                 )
                         ]
                     ]
@@ -93,7 +93,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Dev 👨‍🏭', url="https://t.me/kunaldiwan"
+                                    'Dev 👨‍🏭', url="https://t.me/IamBlackEmpire"
                                 )
                         ]
                     ]
@@ -106,10 +106,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developer 👨‍💻', url='https://t.me/kunaldiwan'),
-        InlineKeyboardButton('Channel 🔔', url ='https://t.me/DevelopedBots')
+        InlineKeyboardButton('Developer 👨‍💻', url='https://t.me/IamBlackEmpire'),
+        InlineKeyboardButton('Channel 🔔', url ='https://t.me/MovieClubUpdates')
     ],[
-        InlineKeyboardButton('Group 📣', url='https://t.me/DevelopedBotz')
+        InlineKeyboardButton('Group 📣', url='https://t.me//MovieClubFamily')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
