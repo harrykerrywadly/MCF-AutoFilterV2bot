@@ -12,7 +12,7 @@ from bot.plugins.auto_filter import recacher # pylint: disable=import-error
 
 db = Database()
 
-@Client.on_message(filters.command(["add"]) & filters.group, group=1)
+@Client.on_message(filters.command(["addyts"]) & filters.group, group=1)
 async def connect(bot: Bot, update):
     """
     A Funtion To Handle Incoming /add Command TO COnnect A Chat With Group
